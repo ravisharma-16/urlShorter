@@ -26,7 +26,7 @@ function App() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/url/shorten",
+        "https://urlshorter-backend.onrender.com",
         { originalUrl, expiryDays,custom }
       );
 
